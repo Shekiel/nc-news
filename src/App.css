@@ -1,5 +1,44 @@
 .App {
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 35px;
+  background: #9c3143;
+  color: rgb(238, 238, 238);
+  font-size: 30px;
+  position: sticky;
+  top: 0;
+}
+
+.articles {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.borderlist {
+  list-style-position: outside;
+  border: 1px solid black;
+  margin: 2%;
+  padding: 2%;
+}
+
+li {
+  border-style: solid;
+  border: #9c3143;
+  border-width: 2%;
+}
+
+.articleBorder {
+  border-style: solid;
+  border: #9c3143;
+  border-width: 2%;
+}
+
+.Home {
+  text-align: center;
 }
 
 .App-logo {
@@ -7,10 +46,9 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.breakingNews {
+  height: 180px;
+  position: inherit;
 }
 
 .App-header {
@@ -28,11 +66,4 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* nav buuton */
