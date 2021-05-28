@@ -9,6 +9,10 @@
   top: 0;
 }
 
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 .articles {
   text-align: center;
 }
@@ -67,3 +71,7 @@ li {
 }
 
 /* nav buuton */
+
+.comments_section {
+  background-color: #9c3143;
+}
